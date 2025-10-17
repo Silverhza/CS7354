@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class ResourceLeakExample {
-   public static void main(String[] args) {
+   // public static void main(String[] args) {
    //     BufferedReader reader = null;
    //     try {
    //         reader = new BufferedReader(new FileReader("test.txt"));
@@ -40,6 +40,7 @@ public class ResourceLeakExample {
     }
 
 }
+
 
 
 
