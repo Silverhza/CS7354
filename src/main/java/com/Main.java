@@ -3,6 +3,8 @@ package com;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+int time = 3000;
+
 public class Main {
 
 	private static final Logger logger = Logger.getLogger(Main.class.getName());
@@ -43,3 +45,4 @@ public class Main {
 		}
 	}
 }
+
